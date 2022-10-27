@@ -1,4 +1,4 @@
 package jdbc_app.controller;
 
-public class Shop {
+public class ShopController {
 }

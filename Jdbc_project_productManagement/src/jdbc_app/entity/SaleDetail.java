@@ -2,7 +2,7 @@ package jdbc_app.entity;
 
 import java.util.Date;
 
-public class Sale_detail {
+public class SaleDetail {
     private long id;
     private long product_id;
     private long shop_id;
@@ -11,10 +11,10 @@ public class Sale_detail {
     private String updatedBy;
     private Date updatedDate;
 
-    public Sale_detail() {
+    public SaleDetail() {
     }
 
-    public Sale_detail(long id, long product_id, long shop_id, String createBy, Date createdDate, String updatedBy, Date updatedDate) {
+    public SaleDetail(long id, long product_id, long shop_id, String createBy, Date createdDate, String updatedBy, Date updatedDate) {
         this.id = id;
         this.product_id = product_id;
         this.shop_id = shop_id;

@@ -1,9 +1,11 @@
-package jdbc_app.service;
+package jdbc_app.repository;
 
 import jdbc_app.entity.Product;
+
 import java.util.List;
 
-public interface ProductService {
+public interface ProductRepository {
+
     List<Product> findAll();
     boolean save(Product product);
     boolean update(Product product);

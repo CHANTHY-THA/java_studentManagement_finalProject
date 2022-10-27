@@ -1,4 +1,4 @@
 package jdbc_app.controller;
 
-public class Stock {
+public class StockController {
 }
