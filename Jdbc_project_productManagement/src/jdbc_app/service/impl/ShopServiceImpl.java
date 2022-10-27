@@ -1,38 +1,47 @@
 package jdbc_app.service.impl;
 
 import jdbc_app.entity.Shops;
+import jdbc_app.repository.CustomerRepository;
+import jdbc_app.repository.ShopRepository;
+import jdbc_app.repository.impl.CustomerRepositoryImpl;
+import jdbc_app.repository.impl.ShopRepositoryImpl;
 import jdbc_app.service.ShopService;
 
 import java.util.List;
 
 public class ShopServiceImpl implements ShopService {
+
+    private ShopRepository shopRepository;
+    public ShopServiceImpl(){
+        shopRepository = new ShopRepositoryImpl();
+    }
     @Override
     public List<Shops> findAll() {
-        return null;
+        return shopRepository.findAll();
     }
 
     @Override
     public boolean save(Shops shops) {
-        return false;
+        return shopRepository.save(shops);
     }
 
     @Override
     public boolean update(Shops shops) {
-        return false;
+        return shopRepository.update(shops);
     }
 
     @Override
     public boolean delete(long id) {
-        return false;
+        return shopRepository.delete(id);
     }
 
     @Override
     public Shops findById(long id) {
-        return null;
+        return shopRepository.findById(id);
     }
 
     @Override
     public List<Shops> findByName(String name) {
-        return null;
+        return shopRepository.findByName(name);
     }
 }
