@@ -1,6 +1,5 @@
 package jdbc_app.repository.impl;
 
-import jdbc_app.entity.Customer;
 import jdbc_app.entity.Shops;
 import jdbc_app.repository.ShopRepository;
 

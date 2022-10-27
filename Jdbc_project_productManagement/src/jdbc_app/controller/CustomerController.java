@@ -46,17 +46,17 @@ public class CustomerController {
 //        }
 
         //FIND BY ID
-//        Customer department = customerService.findById(2);
-//        if(department !=  null){
-//            System.out.println(department.toString());
+//        Customer customer = customerService.findById(2);
+//        if(customer !=  null){
+//            System.out.println(customer.toString());
 //        }else{
 //            System.out.println("Not found!");
 //        }
 
         //FINE BY NAME
-//        List<Customer> departmentList = customerService.findByName("Chanthy");
-//        if(departmentList.size() != 0){
-//            for(Customer d : departmentList){
+//        List<Customer> customerList = customerService.findByName("Chanthy");
+//        if(customerList.size() != 0){
+//            for(Customer d : customerList){
 //                System.out.println(d.toString());
 //            }
 //        }
