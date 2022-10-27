@@ -1,4 +1,4 @@
 package jdbc_app.service.impl;
 
-public class Customer {
+public class VendorServiceImpl {
 }
