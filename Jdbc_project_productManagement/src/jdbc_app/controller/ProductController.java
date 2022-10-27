@@ -5,6 +5,6 @@ import jdbc_app.service.impl.ProductServiceImpl;
 
 public class ProductController {
     public static void main(String[] args) {
-        ProductService productService = (ProductService) new ProductServiceImpl();
+        ProductService productService = new ProductServiceImpl();
     }
 }

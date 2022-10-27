@@ -5,6 +5,7 @@ import jdbc_app.service.impl.SaleServiceImpl;
 
 public class SaleController {
     public static void main(String[] args) {
-        SaleService saleService = (SaleService) new SaleServiceImpl();
+
+        SaleService saleService = new SaleServiceImpl();
     }
 }
